@@ -6,8 +6,7 @@ const env = process.env.ENV;
 
 app.get('/', (_req, res) => {
   res.status(200).send(
-    `Está vivo!!!
-    Ambiente de ${env}`
+    `Está vivo!!! Ambiente: ${env}.`
   )
 });
 
